@@ -6,8 +6,8 @@ const port = 3000;
 
 const configDB = {
   host: "db",
-  user: "root",
-  password: "root",
+  user: "user",
+  password: "password123",
   database: "db_app",
 };
 const connection = mysql.createConnection(configDB);
